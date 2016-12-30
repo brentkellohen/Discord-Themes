@@ -14,6 +14,7 @@
 .callout-backdrop {
 	/*** !! THIS IMAGE URL NEEDS TO BE HTTPS:// !! ***/
 	background: url(https://i.imgur.com/lKkSGS6.jpg) !important;
+	/*Image Source: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=59088353/*/
 	background-size: cover !important;
 }
 
