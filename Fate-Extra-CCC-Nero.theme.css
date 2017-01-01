@@ -582,7 +582,7 @@ textarea {
 .chat>.title-wrap>.topic {
 	font-size:12px;
 	margin-top:5px;
-	color:#ffffff !important;
+	color:#B0B0B0 !important;
 }
 
 .markdown-modal .highlight,
@@ -874,7 +874,7 @@ textarea {
 
 .channel-members h2 {
 	background: rgba(0,0,0);
-	color: #ffffff !important;
+	color: #B0B0B0  !important;
     padding-top: 10px;
     padding-bottom: 10px;
 }
