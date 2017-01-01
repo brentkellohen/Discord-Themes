@@ -420,10 +420,16 @@ textarea {
 	padding:15px 20px 15px 18px !important;
 }
 
-#voice-connection .btn, .btn:after {
+#voice-connection .btn {
 	background:transparent;
 	border-right:none;
 	box-shadow:none !important;	
+}
+
+#voice-connection .btn:active {
+	background:transparent;
+	border-right:none;
+	box-shadow:none !important;
 }
 
 .account .btn-deafen, .account .btn-settings {
@@ -874,7 +880,7 @@ textarea {
 
 .channel-members h2 {
 	background: rgba(0,0,0);
-	color: #B0B0B0  !important;
+	color: #B0B0B0 !important;
     padding-top: 10px;
     padding-bottom: 10px;
 }
