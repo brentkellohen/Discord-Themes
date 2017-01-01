@@ -400,7 +400,7 @@ textarea {
 }
 
 .account .btn:active {
-	background:#000;
+	background:transparent;
 }
 
 .account .btn-settings:after {
@@ -420,9 +420,10 @@ textarea {
 	padding:15px 20px 15px 18px !important;
 }
 
-#voice-connection .btn {
-	background:#000;
-	box-shadow:none !important;
+#voice-connection .btn, .btn:after {
+	background:transparent;
+	border-right:none;
+	box-shadow:none !important;	
 }
 
 .account .btn-deafen, .account .btn-settings {
@@ -515,10 +516,6 @@ textarea {
 	background:rgba(0,0,0,.6) !important;
 }
 
-.topic {
-	display: none;
-}
-
 .header-toolbar button.active {
 	background-color:rgba(255,255,255,0.5);
 }
@@ -585,7 +582,7 @@ textarea {
 .chat>.title-wrap>.topic {
 	font-size:12px;
 	margin-top:5px;
-	color:#656565 !important;
+	color:#ffffff !important;
 }
 
 .markdown-modal .highlight,
