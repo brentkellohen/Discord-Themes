@@ -321,7 +321,7 @@ textarea {
 }
 
 .guild-channels .channel:hover {
-	background:rgba(0,0,0,0.3) !important;
+	background:rgba(25,25,112,0.3) !important;
 }
 
 .private-channels .search-bar {
@@ -329,7 +329,7 @@ textarea {
 }
 
 .private-channels .search-bar input {
-	background:rgba(0,0,0,0.8) !important;
+	background:rgba(0,0,0,0) !important;
 }
 
 .guild-channels .channel.selected,
@@ -341,7 +341,7 @@ textarea {
 
 .guild-channels ul .channel:not(.selected):hover,
 .private-channels .channel:not(.selected):hover {
-	background:rgba(0,0,0,0.3) !important;
+	background:rgba(25,25,112,0.3) !important;
 }
 
 .guild-channels .channel:not(.selected):before,
@@ -852,7 +852,7 @@ textarea {
 }
 
 .friends-table .friends-row:hover {
-	background: rgba(0,0,0,0.7) !important;
+	background: rgba(25,25,112,0.3) !important;
 }
 
 /*
