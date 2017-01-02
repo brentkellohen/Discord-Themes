@@ -253,6 +253,7 @@ textarea {
 
 .guilds-wrapper .guilds .guild .guild-inner {
 	background:#151515 !important;
+	opacity:0.45;
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a,
