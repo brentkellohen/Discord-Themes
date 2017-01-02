@@ -199,7 +199,6 @@ textarea {
 
 .guilds-wrapper {
 	border-right:1px solid rgba(0,0,0,0.4);
-	box-shadow:inset -10px 0px 20px -10px rgba(0,0,0,0.2);
 }
 
 .guilds-wrapper .guild-separator {
