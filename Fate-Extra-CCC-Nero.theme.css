@@ -781,7 +781,7 @@ textarea {
 
 .channel-textarea-emoji>.sprite-item,
 .channel-textarea-emoji.popout-open .sprite-item {
-  background-image:url(https://a.pomf.cat/iyqmjn.png)!important;
+  background-image:url(https://a.pomf.cat/iyqmjn.png)!important; /*Temporary until I make my own :l*/
 }
 
 /*** COMPACT MODE ***/
