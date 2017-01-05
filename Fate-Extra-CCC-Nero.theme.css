@@ -606,6 +606,11 @@ textarea {
 	background:rgba(255,255,255,0.2) !important;
 }
 
+/* Removes line going through date */
+.chat .divider:before {
+	display:none !important;
+}
+
 .chat .divider>span {
 	background:rgba(255,255,255,0.0) !important;
 	font-size:12px;
