@@ -616,6 +616,7 @@ textarea {
     padding: 5px 15px;
     width: 100%;
     text-align: right;
+	display:none !important; /* Removes date */
 }
 
 .chat .divider.divider-red>span {
