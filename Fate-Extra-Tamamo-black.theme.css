@@ -605,6 +605,11 @@ textarea {
 	background:rgba(255,255,255,0.2) !important;
 }
 
+/* Removes line going through date */
+.chat .divider:before {
+	background:rgba(0,0,0,0.0) !important;
+}
+
 .chat .divider>span {
 	background:rgba(255,255,255,0.0) !important;
 	font-size:12px;
@@ -614,7 +619,8 @@ textarea {
 	opacity: 1;
     padding: 5px 15px;
     width: 100%;
-    text-align: right;
+    text-align: left;
+	display:none !important; /* Removes date*/
 }
 
 .chat .divider.divider-red>span {
