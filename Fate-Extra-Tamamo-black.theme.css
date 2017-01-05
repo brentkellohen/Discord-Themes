@@ -607,7 +607,7 @@ textarea {
 
 /* Removes line going through date */
 .chat .divider:before {
-	background:rgba(0,0,0,0.0) !important;
+	display:none !important;
 }
 
 .chat .divider>span {
