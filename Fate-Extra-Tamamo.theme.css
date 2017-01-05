@@ -904,23 +904,27 @@ textarea {
                                           |_|         |_|                    
 */
 
+.channel-members .popout-open {
+	background:rgba(25,25,112,0.0) !important; /*I left the color here in case I want it in the future*/
+}
+
 .user-popout .avatar-wrapper .avatar-popout {
 	border:4px solid rgba(0,0,0,0.9);
     background-color:rgba(0,0,0,0.9);
 }
 
+.user-popout .header {
+	background-color:rgba(25,25,112,0.7) !important;
+}
+
 .user-popout .body {
-	background:rgba(0,0,0,0.8);
-	border-left:1px solid rgba(255,255,255,0.2);
-	border-right:1px solid rgba(255,255,255,0.2);
+	background:rgba(25,25,112,0.7);
 }
 
 .user-popout .footer {
-	background:rgba(0,0,0,0.8);
-    border-top:1px solid rgba(255,255,255,0.2);
-    border-left:1px solid rgba(255,255,255,0.2);
-	border-right:1px solid rgba(255,255,255,0.2);
-	border-bottom:1px solid rgba(255,255,255,0.2);
+	background:rgba(25,25,112,0.7);
+    border-top:1px solid rgba(255,255,255,0);
+    
 }
 
 .user-popout .footer .quick-message-wrapper .input {
@@ -942,6 +946,10 @@ textarea {
 	border-width: 1px;
 	border-style: solid;
 }
+
+.avatar-wrapper {
+	background-color:rgba(0,0,0,0) !important;
+	}
 
 /* Admin buttons */
 .user-popout .user-popout-options .btn.btn-server {
@@ -1401,11 +1409,12 @@ textarea {
 }
 
 #user-profile-modal .sub-header,
+#user-profile-modal .header,
 #user-profile-modal .tab-bar,
 #user-profile-modal .scroller,
 #user-profile-modal .empty,
 #user-profile-modal footer {
-	background:rgba(0,0,0,0.85) !important;
+	background:rgba(25,25,112,0.8) !important;
 }
 
 #user-profile-modal .guilds .guild:hover {
@@ -1416,6 +1425,10 @@ textarea {
 #user-profile-modal .avatar-profile {
 	border-color:rgba(0,0,0,0.7);
 	background-color:rgba(0,0,0,0.85);
+}
+
+#user-profile-modal .tab-bar.TOP {
+	background:rgba(0,0,0,0) !important;
 }
 
 #bd-customcss-attach-controls {
