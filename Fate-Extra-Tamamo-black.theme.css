@@ -44,7 +44,7 @@
 .channel-members { background:rgba(0,0,0,0.6) !important }
 
 /*Layers Background Fix*/
-.layers { background: transparent !important; }
+.layers { background: rgba(0,0,0,.5)!important; }
 
 /*
   ____ ___  _     ___  ____  ____  
