@@ -27,7 +27,7 @@
                                                 |___/                                 
 */
 
-.chat,.typing,.content,.guild-channels,.private-channels,.guild-header header,.divider-red span,.messages-wrapper,#voice-connection {
+.chat,.typing,.content,.guild-channels,.private-channels,.guild-header header,.divider-red span,.messages-wrapper,#rtc-connection {
 	background: transparent !important;
 }
 
@@ -414,7 +414,7 @@ textarea {
     border-right:none;/*1px solid #101010;*/
 }
 
-#voice-connection {
+#rtc-connection {
 	z-index:9;
 	border-top:none !important;
 	/*width:285px;
@@ -422,13 +422,13 @@ textarea {
 	padding:15px 20px 15px 18px !important;
 }
 
-#voice-connection .btn {
+#rtc-connection .btn {
 	background:transparent;
 	border-right:none;
 	box-shadow:none !important;	
 }
 
-#voice-connection .btn:active {
+#rtc-connection .btn:active {
 	background:transparent;
 	border-right:none;
 	box-shadow:none !important;
@@ -438,7 +438,7 @@ textarea {
 	box-shadow:none !important;
 }
 
-.account .btn-group, #voice-connection .btn-group {
+.account .btn-group, #rtc-connection .btn-group {
 	border:none;
 }
 
@@ -1107,7 +1107,7 @@ textarea {
 }
 
 /* ACCOUNT BAR */
-.bd-minimal #voice-connection {
+.bd-minimal #rtc-connection {
 	width:176px;
     margin-left:-46px;
 }
