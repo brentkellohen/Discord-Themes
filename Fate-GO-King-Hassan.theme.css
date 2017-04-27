@@ -43,6 +43,9 @@
 /* User list area */
 .channel-members { background:rgba(0,0,0,0.6) !important }
 
+/* Layers Background */
+.layers { background: transparent !important; }
+
 /*
   ____ ___  _     ___  ____  ____  
  / ___/ _ \| |   / _ \|  _ \/ ___| 

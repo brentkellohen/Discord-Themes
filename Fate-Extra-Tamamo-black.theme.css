@@ -45,6 +45,9 @@
 
 /*Foreground Layer Removal*/
 .layers, .layer { background: transparent !important; }
+=======
+/*Layers Background*/
+.layers { background: transparent !important; }
 
 /*
   ____ ___  _     ___  ____  ____  
