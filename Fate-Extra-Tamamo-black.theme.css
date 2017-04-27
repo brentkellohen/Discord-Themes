@@ -454,7 +454,7 @@ textarea {
 	border:none !important;
 }
 
-.rtc-connection {
+.rtc-connection .rtc-connection-inner .btn-group {
 	background:transparent !important;
 	border:none !important;
 }
