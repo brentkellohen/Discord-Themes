@@ -121,6 +121,25 @@ textarea {
 	background-color:rgba(0,0,0,0.3) !important;
 }
 
+/*Search area*/
+.search-results-wrap {
+	background:rgba(0,0,0,0.6) !important;
+}
+
+.search-header {
+	background:transparent !important;
+}
+
+.search-result-message {
+	background:transparent !important;
+	border:
+}
+
+/**wip**/
+.search-result.sibling.after {
+	background:transparent !important;
+}
+
 /*
                                 _ _     _                   _   _             
  ___  ___ _ ____   _____ _ __  | (_)___| |_   ___  ___  ___| |_(_) ___  _ __  
