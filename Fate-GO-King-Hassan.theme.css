@@ -43,6 +43,9 @@
 /* User list area */
 .channel-members { background:rgba(0,0,0,0.6) !important }
 
+/*Foreground Layer Removal*/
+.layers, .layer { background: transparent !important; }
+
 /* Layers Background */
 .layers { background: transparent !important; }
 
